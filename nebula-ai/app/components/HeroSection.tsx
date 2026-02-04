@@ -38,7 +38,7 @@ export default function HeroSection() {
                 width={32}
                 height={32}
               />
-              <span className="text-xl font-medium text-gray-900">
+              <span className="text-xl font-semibold text-gray-900">
                 Nebula AI
               </span>
             </Link>
@@ -47,7 +47,7 @@ export default function HeroSection() {
             <div className="p-1 pr-3 pl-3 bg-black rounded-full cursor-pointer">
               <Link
                 href="/sign-up"
-                className="text-sm font-medium leading-6 text-white"
+                className="text-sm font-semibold leading-6 text-white"
               >
                 Join Nebula AI
               </Link>
@@ -78,13 +78,13 @@ export default function HeroSection() {
               href={GITHUB_URI}
               target="_blank"
               rel="noreferrer"
-              className="text-sm font-medium leading-6 text-gray-900"
+              className="text-sm font-semibold leading-6 text-gray-900"
             >
               Github
             </a>
             <a
               onClick={handleScroll}
-              className="text-sm font-medium leading-6 text-gray-900 cursor-pointer"
+              className="text-sm font-semibold leading-6 text-gray-900 cursor-pointer"
             >
               Features
             </a>
@@ -92,7 +92,7 @@ export default function HeroSection() {
               href={BETTERSTACK_URI}
               target="_blank"
               rel="noreferrer"
-              className="text-sm font-medium leading-6 text-gray-900"
+              className="text-sm font-semibold leading-6 text-gray-900"
             >
               Status
             </a>
@@ -100,7 +100,7 @@ export default function HeroSection() {
               href={LINKEDIN_URI}
               target="_blank"
               rel="noreferrer"
-              className="text-sm font-medium leading-6 text-gray-900"
+              className="text-sm font-semibold leading-6 text-gray-900"
             >
               Contact
             </a>
@@ -109,13 +109,13 @@ export default function HeroSection() {
             <div className="flex gap-4 justify-center items-center">
               <Link
                 href="/sign-in"
-                className="text-sm font-medium leading-6 text-gray-900"
+                className="text-sm font-semibold leading-6 text-gray-900"
               >
                 Log in
               </Link>
               <Link href="/sign-up">
                 <div className="p-1 pr-3 pl-3 bg-black rounded-full cursor-pointer">
-                  <p className="text-sm font-medium leading-6 text-white">
+                  <p className="text-sm font-semibold leading-6 text-white">
                     Join Nebula AI
                   </p>
                 </div>

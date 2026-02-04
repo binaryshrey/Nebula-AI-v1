@@ -47,7 +47,7 @@ export function LogoMarquee({
   const animationDirection = direction === "right" ? "reverse" : "normal";
 
   return (
-    <section className="overflow-hidden bg-[#060E17] py-20">
+    <section className="overflow-hidden bg-[#060E17] py-20 lg:pb-40">
       <style>
         {`
           @keyframes marquee-scroll {
@@ -72,12 +72,12 @@ export function LogoMarquee({
           }
         `}
       </style>
-      <div className="mx-auto max-w-8xl px-18">
+      <div className="mx-auto max-w-8xl px-12 lg:px-20">
         <div className="mb-12 text-center">
-          <h2 className="mb-4 font-bold text-2xl text-white lg:text-3xl">
+          <h2 className="mb-4 font-bold text-md text-white lg:text-3xl">
             {title}
           </h2>
-          <p className="text-white/70 text-lg">{description}</p>
+          <p className="text-white/70 text-sm">{description}</p>
         </div>
         <div
           className="marquee-container relative overflow-hidden"
@@ -109,7 +109,7 @@ export function LogoMarquee({
                   alt={logo.name}
                   width={60}
                   height={20}
-                  className="h-6 w-auto object-contain"
+                  className="h-5 w-auto object-contain lg:h-6"
                 />
               </div>
             ))}
@@ -124,7 +124,7 @@ export function LogoMarquee({
                   alt={logo.name}
                   width={60}
                   height={20}
-                  className="h-6 w-auto object-contain"
+                  className="h-5 w-auto object-contain lg:h-6"
                 />
               </div>
             ))}
